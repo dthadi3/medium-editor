@@ -1,10 +1,10 @@
+# faster builds on new travis setup not using sudo
+sudo: false
+
 arch:
     - amd64
     - ppc64le
     
-# faster builds on new travis setup not using sudo
-sudo: false
-
 # cache vendor dirs
 cache:
     directories:
